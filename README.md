@@ -166,3 +166,17 @@ Good luck!
 <p class='util--hide'>View <a href='https://learn.co/lessons/selecting-single-elements-lab'>Selecting Single Elements Lab</a> on Learn.co and start learning to code for free.</p>
 
 [mdnerrors]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors
+
+
+
+//Enter querySelector Code 
+var header = document.querySelector("#header").innerHTML
+var linkText = document.querySelector("a").text
+var linkHref = document.querySelector("a").href
+
+
+// NO NEED TO MODIFY BELOW HERE
+console.log(`The header is: ${header}`)
+console.log(`The first link text is: ${linkText}`)
+console.log(`The first link href is: ${linkHref}`)
+ 
